@@ -7,6 +7,8 @@ export * from "./contracts/evidence-packet";
 export * from "./contracts/finding-packet";
 export * from "./contracts/repair-proposal";
 export * from "./contracts/approval-decision";
+export * from "./contracts/execution-result";
+export * from "./contracts/closeout-record";
 export * from "./policies/intent-guards";
 export * from "./proving-slice/documentation-drift-digest";
 export * from "./services/yellowjacket-client";
