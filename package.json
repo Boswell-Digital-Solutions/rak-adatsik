@@ -4,7 +4,8 @@
   "type": "module",
   "packageManager": "bun@1.2.15",
   "scripts": {
-    "typecheck": "bunx tsc -p tsconfig.json --noEmit"
+    "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+    "fixtures:smoke": "bun src/testing/packet-fixtures.smoke.ts"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
