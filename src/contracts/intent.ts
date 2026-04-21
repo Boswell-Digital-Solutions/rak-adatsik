@@ -5,7 +5,7 @@ export type OpenClawIntentAction =
   | "review_packet_approve"
   | "review_packet_reject";
 
-export interface OpenClawIntentV1 {
+export interface RakAdatsikIntentV1 {
   schemaVersion: "openclaw_intent.v1";
   intentId: string;
   action: OpenClawIntentAction;

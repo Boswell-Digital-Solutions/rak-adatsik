@@ -1,4 +1,4 @@
-import type { OpenClawIntentV1 } from "../contracts/intent";
+import type { RakAdatsikIntentV1 } from "../contracts/intent";
 import type { OperatorQueueItemV1 } from "../contracts/operator-queue";
 import type { ReviewTaskV1 } from "../contracts/review-task";
 import { buildIntent } from "../policies/intent-guards";
@@ -13,7 +13,7 @@ export interface DocumentationDriftDigestRequest {
 
 export function buildDocumentationDriftDigestIntent(
   input: DocumentationDriftDigestRequest,
-): OpenClawIntentV1 {
+): RakAdatsikIntentV1 {
   return buildIntent({
     intentId: `intent-${input.projectId}`,
     action: "documentation_drift_digest_run",

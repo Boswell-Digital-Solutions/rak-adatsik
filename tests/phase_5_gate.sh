@@ -14,7 +14,7 @@ require_file() {
 require_file "src/proving-slice/documentation-drift-digest.ts"
 require_file "src/testing/fake-fetch.ts"
 require_file "tests/phase_5_proof.ts"
-require_file "docs/implementation/openclaw/phase_5_first_proving_slice.md"
+require_file "docs/implementation/rak-adatsik/phase_5_first_proving_slice.md"
 require_file "tests/phase_5_gate.sh"
 
 command -v bun >/dev/null 2>&1 || fail "bun is not installed or not on PATH"

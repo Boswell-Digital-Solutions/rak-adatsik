@@ -1,4 +1,4 @@
-import type { OpenClawIntentV1 } from "../contracts/intent";
+import type { RakAdatsikIntentV1 } from "../contracts/intent";
 import type { OperatorQueueItemV1 } from "../contracts/operator-queue";
 import type { ReviewTaskV1 } from "../contracts/review-task";
 import { assertIntentOnlyDispatch } from "../policies/intent-guards";
@@ -64,7 +64,7 @@ export class YellowJacketClient {
     this.baseUrl = normalizeBaseUrl(config.baseUrl);
   }
 
-  async submitIntent(intent: OpenClawIntentV1): Promise<OperatorQueueItemV1> {
+  async submitIntent(intent: RakAdatsikIntentV1): Promise<OperatorQueueItemV1> {
     assertIntentOnlyDispatch(intent);
 
     const response = await this.fetcher(joinUrl(this.baseUrl, "/intents"), {

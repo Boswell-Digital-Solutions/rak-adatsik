@@ -1,5 +1,6 @@
 # Rak-Adatsik
-Standalone operator/control-plane repo for the Hermes + OpenClaw plan.
+
+Internal operator/control-plane repo for the rak-adatsik concept.
 
 ## Phase 4 scope
 - operator intents only

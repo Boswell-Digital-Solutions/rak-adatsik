@@ -1,11 +1,11 @@
-# OpenClaw Phase 5 First Proving Slice
+# Rak-Adatsik Phase 5 First Proving Slice
 
 **Status:** ready_for_apply  
 **Date:** 2026-04-17  
 **Phase:** 5 — First Proving Slice
 
 ## Objective
-Prove the first bounded OpenClaw operator workflow without violating the authority model.
+Prove the first bounded Rak-Adatsik operator workflow without violating the authority model.
 
 ## Proving path
 - build a documentation drift digest intent
@@ -14,7 +14,7 @@ Prove the first bounded OpenClaw operator workflow without violating the authori
 - load a review task
 
 ## Proof conditions
-- OpenClaw submits an intent, not an execution command
+- Rak-Adatsik submits an intent, not an execution command
 - the request hits the YellowJacket `/intents` boundary
 - queue retrieval works through `/queue`
 - review-task retrieval works through `/review-tasks/:id`
