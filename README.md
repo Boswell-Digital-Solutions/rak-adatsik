@@ -1,5 +1,4 @@
-# OpenClaw
-
+# Rak-Adatsik
 Standalone operator/control-plane repo for the Hermes + OpenClaw plan.
 
 ## Phase 4 scope
