@@ -13,3 +13,4 @@ export * from "./policies/intent-guards";
 export * from "./proving-slice/documentation-drift-digest";
 export * from "./services/yellowjacket-client";
 export * from "./testing/fake-fetch";
+export * from "./testing/packet-fixtures";
