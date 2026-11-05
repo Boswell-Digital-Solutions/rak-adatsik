@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repo Identity
+
+- Default branch: master
+
 ## Project Overview
 
 Rak-Adatsik is an internal operator/control-plane repo for the rak-adatsik concept within Boswell Digital Solutions' Forge ecosystem. The current phase is Phase 4 control-plane foundation and Phase 5 first proving slice: it handles operator intents, queue and review-task contracts, and the YellowJacket client boundary only. It has no direct execution commands and no direct Hermes bypass.
