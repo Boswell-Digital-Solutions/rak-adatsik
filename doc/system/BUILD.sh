@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Assembles the compiled system reference (designation RAK).
+# Assembles the compiled system reference (designation rak).
 # Fail-closed: missing structure, designation/output mismatch, or snapshot
 # validation failure aborts the build with BUILD_FAILED on stderr.
 
 PARTS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd "$PARTS_DIR/../.." && pwd)"
-DESIGNATION="RAK"
-OUTPUT="${OUTPUT:-doc/RAKSYSTEM.md}"
+DESIGNATION="rak"
+OUTPUT="${OUTPUT:-doc/rakSYSTEM.md}"
 VALIDATOR="$PARTS_DIR/validate_snapshots.sh"
 
 fail() { echo "BUILD_FAILED: $1" >&2; exit 1; }

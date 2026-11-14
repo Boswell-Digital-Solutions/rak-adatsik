@@ -25,12 +25,12 @@ Rak-Adatsik is an internal operator/control-plane repo for the rak-adatsik conce
 - `src/proving-slice/` — Phase 5 proving-slice work (e.g. `documentation-drift-digest.ts`).
 - `src/testing/` — fixture and proof helpers.
 - `tests/` — phase gate scripts (`phase_4_gate.sh`, `phase_5_gate.sh`) and proof scripts.
-- `doc/system/` — canonical source-of-truth doc modules (truth-classed: canonical facts vs. dated snapshot facts); `doc/RAKSYSTEM.md` is the generated compiled reference — never hand-edit it, edit `doc/system/` and rebuild.
+- `doc/system/` — canonical source-of-truth doc modules (truth-classed: canonical facts vs. dated snapshot facts); `doc/rakSYSTEM.md` is the generated compiled reference — never hand-edit it, edit `doc/system/` and rebuild.
 - `docs/implementation/rak-adatsik/` — implementation notes.
 
 Operator intent is the authority boundary: this repo may shape review queues and proposals, but must not bypass governed review or execute directly.
 
 ## Notes
 
-- `doc/RAKSYSTEM.md` is a generated artifact assembled from `doc/system/`. Hand edits to it are overwritten by the next build — edit the source modules instead.
+- `doc/rakSYSTEM.md` is a generated artifact assembled from `doc/system/`. Hand edits to it are overwritten by the next build — edit the source modules instead.
 - `todo.md` is an operator working note, not a canonical system source.
