@@ -1,13 +1,13 @@
         # Rak-Adatsik - Compiled System Reference
 
-        **Designation:** RAK
+        **Designation:** rak
         **Document role:** Canonical compiled technical reference for the Rak-Adatsik operator control-plane repo
         **Source:** `doc/system/`
         **Build command:** `bash doc/system/BUILD.sh`
         **Document version:** 2.0 (2026-06-22) - canonical compliance migration
         **Protocol:** BDS Documentation Protocol v2.0; BDS Repo Documentation System Canonical Compliance Standard
 
-        > **Generated artifact warning:** `doc/RAKSYSTEM.md` is assembled output. Edit
+        > **Generated artifact warning:** `doc/rakSYSTEM.md` is assembled output. Edit
         > the source modules under `doc/system/` and rebuild. Hand edits to the
         > compiled artifact are overwritten by the next build.
 
@@ -15,7 +15,7 @@
 
         - Command: `bash doc/system/BUILD.sh`
         - Validation: `bash doc/system/validate_snapshots.sh` runs during assembly
-        - Primary output: `doc/RAKSYSTEM.md`
+        - Primary output: `doc/rakSYSTEM.md`
 
         This `doc/system/` tree is the canonical source of truth for Rak-Adatsik. It uses
         explicit **truth classes**: canonical facts define repo role, authority
